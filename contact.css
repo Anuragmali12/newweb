@@ -16,7 +16,7 @@
 
 nav{
 	display: flex;
-	padding:  2% 2%;
+	padding:  1% 2%;
 	justify-content: space-between;
 	align-items:  center
 }
@@ -38,14 +38,14 @@ nav img{
 	position: relative;
 }
 .nav-links ul li a{
-	color:rgb(24, 9, 9);
+	color:rgb(0, 0, 0);
 	text-decoration:none;
-	font-size:20px;
+	font-size:30px;
 	
 }
 .text-box{
 	width: 90%;
-	color: rgb(7, 1, 1);
+	color: rgb(0, 0, 0);
 	position: absolute;
 	top: 50%;
 	left:50%;
@@ -59,11 +59,22 @@ nav img{
 }
 .text-box p{
 	margin: 10px 0 40px;
-	font-size: 27px;
-	color: #fff7f7;
+	font-size: 40px;
+	color: #f8f4f4;
 
 
 
+}
+
+
+.header{
+    min-height: 250vh;
+    width: 100%;
+
+    background-image: url(bg.jpg);
+    background-position: center;
+        background-size: 100%;
+        position: relative;
 }
 
 /*--------contact us page --------*/
@@ -79,4 +90,9 @@ nav img{
 	padding: 15px;
 	margin-bottom: 20px;
 	outline: 1px solid #ccc;
+}
+
+
+iframe{
+   top: 100px;
 }
